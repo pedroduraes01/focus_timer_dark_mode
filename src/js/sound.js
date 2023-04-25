@@ -1,7 +1,7 @@
 export { Sound }
 
 function Sound() {
-    const buttonFlorest = new Audio('/src/assets/sound/Floresta.wav')
+    const buttonFlorest = new Audio('../assets/sound/Floresta.wav')
     const buttonRain = new Audio('/src/assets/sound/Chuva.wav')
     const buttonCoffe = new Audio('/src/assets/sound/Cafeteria.wav')
     const buttonFire = new Audio('/src/assets/sound/Lareira.wav')
